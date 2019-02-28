@@ -1,0 +1,8 @@
+
+function emailbody() {
+    let emailbody = document.getElementById('email-body')
+    emailbody.innerHTML = ""
+    emailbody.innerHTML = "<%= j render 'email', email: @email %>"
+}
+
+emailbody();
