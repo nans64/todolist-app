@@ -1,0 +1,1 @@
+<%= link_to 'Destroy', email, method: :delete, data: { confirm: 'Are you sure?' } %>
